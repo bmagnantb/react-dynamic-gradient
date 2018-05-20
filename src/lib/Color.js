@@ -18,15 +18,11 @@ Color.propTypes = {
     opacity: number.isRequired
   }).isRequired,
   height: string.isRequired,
-  position: shape({
-    top: string.isRequired
-  }).isRequired,
+  position: shape({ top: string.isRequired }).isRequired,
   rotate: number,
-  width: string.isRequired,
+  width: string.isRequired
 }
 
-Color.defaultProps = {
-  rotate: 0
-}
+Color.defaultProps = { rotate: 0 }
 
 export default Color

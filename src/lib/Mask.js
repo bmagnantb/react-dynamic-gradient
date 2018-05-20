@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { transparentize } from 'polished'
 
 const Mask = styled.div`
-  background-color: ${transparentize(.25, '#fff')};
+  background-color: ${transparentize(0.3, '#fff')};
   height: 200vh;
   left: -50vh;
   position: fixed;
