@@ -1,5 +1,5 @@
 {
-  "name": "react-dynamic-gradient-blurry",
+  "name": "react-dynamic-gradient",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -27,5 +27,7 @@
     "start": "node ./scripts/start",
     "build": "node ./scripts/build",
     "test": "jest"
-  }
+  },
+  "license": "MIT",
+  "author": "ben magnant brown"
 }
